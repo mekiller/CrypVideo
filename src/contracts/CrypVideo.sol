@@ -1,8 +1,6 @@
 pragma solidity ^0.5.0;
 
-//Dvideo
-  //UploadDvideo
-  //dvideo
+
 contract CrypVideo {
   uint public videoCount = 0;
   string public name = "CrypVideo";
