@@ -7,9 +7,7 @@ import './App.css';
 import Search from './search.js';
 
 
-//Dvideo
-  //UploadDvideo
-  //dvideo
+
 //Declare IPFS
 const ipfsClient = require('ipfs-http-client')
 const ipfs = ipfsClient({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' }) // leaving out the arguments will default to these values
@@ -76,19 +74,7 @@ class App extends Component {
         window.alert('Need to deploy the contract first')
       }
 
-      //Assign dvideo contract to a variable
-      //Add dvideo to the state
-
-      //Check videoAmounts
-      //Add videAmounts to the state
-
-      //Iterate throught videos and add them to the state (by newest)
-
-
-      //Set latest video and it's title to view as default 
-      //Set loading state to false
-
-      //If network data doesn't exisits, log error
+      
   }
 
   //Get video convert the file to a buffer and get ready to put it on ipfs
