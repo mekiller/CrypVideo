@@ -1,7 +1,5 @@
 const CrypVideo = artifacts.require('./CrypVideo.sol')
-//Dvideo
-  //UploadDvideo
-  //dvideo
+
 require('chai')
   .use(require('chai-as-promised'))
   .should()
